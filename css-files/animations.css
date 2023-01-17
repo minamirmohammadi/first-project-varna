@@ -1,0 +1,204 @@
+/* top-header */
+
+/* @keyframes head-move {               
+  from {
+    bottom: -200px;
+  }
+  to {
+    bottom: 0px;
+  }
+}  */
+/*.top-header .left span {
+   position: relative;
+  animation-name: head-move;                
+  animation-duration: 1s;  
+}
+*/
+/*.top-header .left .social-icons {
+  animation-name: head-move;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
+  position: relative;   
+}*/
+/*.top-header .left button{
+  position: relative;
+  animation-name: head-move;
+  animation-duration: 1s;
+  animation-delay: 0.9s;      
+}*/
+
+/* end of top header ------------------------------------------------------------*/
+
+/* about me */
+
+/* @keyframes move-about-me {
+from {
+  left: -500px;
+}
+to {
+  left: 0px;
+} */
+/* .about-me .left {
+  position: relative;
+  animation-name: move-about-me;
+  animation-duration: 1s; 
+  } */
+
+/* and of about me ------------------------------------------------*/
+
+/* services */
+
+/* .services .items .sub-item.one{
+  position: relative;
+  animation-name: move-servises;
+  animation-duration: 1s;
+}
+.services .items .sub-item.two{
+  position: relative;
+  animation-name: move-servises;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
+}
+.services .items .sub-item.three{
+  position: relative;
+  animation-name: move-servises;
+  animation-duration: 1s;
+  animation-delay: 0.9s;
+}
+.services .items .sub-item.four{
+  position: relative;
+  animation-name: move-servises;
+  animation-duration: 1s;
+  animation-delay: 1.2s;
+}
+@keyframes move-servises {
+  from {
+    bottom: -200px;
+  }
+  to {
+    bottom: 0px;
+  }
+}  */
+
+/* end of services ---------------------------------------------------*/
+
+/* experience */
+
+/* @keyframes move-ex-right {
+  from {
+    right: -500px;
+  }
+  to {
+    right: 0px;
+  }
+}
+.ex-items .ex-item.ex-one {
+  position: relative;
+  animation-name: move-ex-right;
+  animation-duration: 1s;
+}
+.ex-items .ex-item.ex-three {
+  position: relative;
+  animation-name: move-ex-right;
+  animation-duration: 1s;
+  animation-delay: 0.9s;
+}  
+
+@keyframes move-ex-left {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 0px;
+  }
+}
+.ex-items .ex-item.ex-two{
+  position: relative;
+  animation-name: move-ex-left;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
+}
+.ex-items .ex-item.ex-four{
+  position: relative;
+  animation-name: move-ex-left;
+  animation-duration: 1s;
+  animation-delay: 1.2s;
+} */
+
+/* end of experience ----------------------------------------------------------*/
+
+/* client */
+
+/* @keyframes move-cl-right {
+  from {
+    right: -500px;
+  }
+  to {
+    right: 0px;
+  }
+}
+.client-items .client-item.cl-one {
+  position: relative;
+  animation-name: move-cl-right;
+  animation-duration: 1s;
+}
+.client-items .client-item.cl-three {
+  position: relative;
+  animation-name: move-cl-right;
+  animation-duration: 1s;
+  animation-delay: 0.9s;
+}  
+
+@keyframes move-cl-left {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 0px;
+  }
+}
+.client-items .client-item.cl-two{
+  position: relative;
+  animation-name: move-cl-left;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
+}
+.client-items .client-item.cl-four{
+  position: relative;
+  animation-name: move-cl-left;
+  animation-duration: 1s;
+  animation-delay: 1.2s;
+}  */
+
+/* and of client -------------------------------------------------------------*/
+
+/* contact me */
+
+/* @keyframes move-contact-rtl {
+  from {
+    right: -500px;
+  }
+  to {
+    right: 0px;
+  }
+}
+.sub-contact .right {
+  position: relative;
+  animation-name: move-contact-rtl;
+  animation-duration: 1s;
+}
+
+@keyframes move-contact-ltr {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 0px;
+  }
+}
+.sub-contact .left {
+  position: relative;
+  animation-name: move-contact-ltr;
+  animation-duration: 1s;
+} */
+/* end od contact me ----------------------------------------------------------*/

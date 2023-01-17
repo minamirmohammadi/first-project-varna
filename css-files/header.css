@@ -1,0 +1,140 @@
+/* nav */
+nav {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  top: 0px;
+  left: 8%;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+nav .right ul {
+  display: flex;
+  list-style: none;
+}
+nav .right ul li {
+  margin-right: 14px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  cursor: pointer;
+}
+.menu-phone {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  nav .right ul {
+    display: none;
+  }
+  nav .right .menu-phone {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c4c7c9;
+    padding: 10px;
+    font-size: 25px;
+    color: gray;
+    border-radius: 7px;
+    background-color: #f4f6f8;
+    cursor: pointer;
+  }
+}
+/* end nav */
+
+/* top header */
+
+.top-header {
+  display: flex;
+  margin: 0px auto;
+  margin-top: 100px;
+  align-items: flex-start;
+}
+.top-header .right {
+  width: 50%;
+}
+.top-header .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+}
+.top-header .left span {
+  margin-bottom: 7px;
+  letter-spacing: 2px;                       
+}
+.top-header .left h1 {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+
+}
+
+.top-header .left .social-icons {
+  margin: 20px 0px 35px 0px;
+}
+.top-header .left .social-icons i {
+  margin-left: 15px;
+  font-size: 20px;
+}
+.top-header .left button {
+  width: 180px;
+  border: none;
+  padding: 15px;
+  background-color: yellow;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-header .left button i {
+  font-size: 23px;
+  margin-right: 4px;
+}
+
+/* @media (min-width: 1300px) {
+  .top-header .right {
+    padding-right: 35px;
+  }
+} */
+
+@media (min-width: 800px) {
+  nav {
+    background-color: #f4f6f8;
+    box-shadow: 5px 5px 5px #c4c7c9;
+    border-radius: 16px;
+    padding: 18px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .top-header {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .top-header .right,
+  .top-header .left {
+    width: 100%;
+  }
+  .top-header .left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  .top-header .left span {
+    letter-spacing: 1px;
+  }
+  .top-header .right {
+    display: flex;
+    justify-content: center;
+  }
+  .top-header .right img {
+    max-width: 100%;
+  }
+}
+/* end top header */

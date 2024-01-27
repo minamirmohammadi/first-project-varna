@@ -1,31 +1,31 @@
 /* top-header */
 
-/* @keyframes head-move {               
+ @keyframes head-move {               
   from {
     bottom: -200px;
   }
   to {
     bottom: 0px;
   }
-}  */
-/*.top-header .left span {
+}  
+.top-header .left span {
    position: relative;
   animation-name: head-move;                
   animation-duration: 1s;  
 }
-*/
-/*.top-header .left .social-icons {
+
+.top-header .left .social-icons {
   animation-name: head-move;
   animation-duration: 1s;
   animation-delay: 0.7s;
   position: relative;   
-}*/
-/*.top-header .left button{
+}
+.top-header .left button{
   position: relative;
   animation-name: head-move;
   animation-duration: 1s;
   animation-delay: 0.9s;      
-}*/
+}
 
 /* end of top header ------------------------------------------------------------*/
 
